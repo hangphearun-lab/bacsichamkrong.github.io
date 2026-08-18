@@ -1,1 +1,311 @@
 # bacsichamkrong.github.io
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>បក្សីចាំក្រុង | Bacsichamkrong</title>
+
+  <meta name="description" content="បក្សីចាំក្រុង - Bacsichamkrong Professional Live Band">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, "Noto Sans Khmer", sans-serif;
+      background: #080808;
+      color: #fff;
+      line-height: 1.7;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 30px 20px;
+      background:
+        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.85)),
+        url("images/hero.jpg") center/cover no-repeat;
+    }
+
+    .hero {
+      max-width: 900px;
+    }
+
+    .hero h1 {
+      font-size: clamp(45px, 10vw, 90px);
+      color: #f5c542;
+      margin-bottom: 10px;
+      text-shadow: 0 0 25px rgba(245,197,66,.4);
+    }
+
+    .hero h2 {
+      font-size: clamp(22px, 5vw, 40px);
+      letter-spacing: 5px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #ddd;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 13px 30px;
+      border: 1px solid #f5c542;
+      border-radius: 30px;
+      color: #f5c542;
+      text-decoration: none;
+      transition: .3s;
+    }
+
+    .btn:hover {
+      background: #f5c542;
+      color: #000;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(0,0,0,.95);
+      border-bottom: 1px solid #333;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 12px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #f5c542;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .title h2 {
+      color: #f5c542;
+      font-size: 35px;
+      margin-bottom: 8px;
+    }
+
+    .title p {
+      color: #aaa;
+    }
+
+    .about {
+      text-align: center;
+      max-width: 850px;
+      margin: auto;
+      color: #ddd;
+      font-size: 17px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 1px solid #333;
+      transition: .3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.02);
+      border-color: #f5c542;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .card h3 {
+      color: #f5c542;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact p {
+      margin: 10px 0;
+      color: #ddd;
+    }
+
+    footer {
+      background: #030303;
+      border-top: 1px solid #333;
+      text-align: center;
+      padding: 30px 20px;
+      color: #aaa;
+    }
+
+    footer strong {
+      color: #f5c542;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        margin: 0 5px;
+        font-size: 13px;
+      }
+
+      section {
+        padding: 50px 15px;
+      }
+
+      .gallery img {
+        height: 240px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="hero">
+      <h1>បក្សីចាំក្រុង</h1>
+      <h2>BACSICHAMKRONG</h2>
+      <p>PROFESSIONAL LIVE BAND</p>
+      <a href="#contact" class="btn">ទំនាក់ទំនងពួកយើង</a>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">អំពីក្រុម</a>
+    <a href="#gallery">រូបភាព</a>
+    <a href="#services">សេវាកម្ម</a>
+    <a href="#contact">ទំនាក់ទំនង</a>
+  </nav>
+
+  <section id="about">
+    <div class="title">
+      <h2>អំពី បក្សីចាំក្រុង</h2>
+      <p>BAСSICHAMKRONG PROFESSIONAL LIVE BAND</p>
+    </div>
+
+    <div class="about">
+      <p>
+        សូមស្វាគមន៍មកកាន់គេហទំព័រផ្លូវការរបស់
+        <strong>បក្សីចាំក្រុង</strong>។
+        ពួកយើងផ្តល់សេវាតន្ត្រី និងការសម្តែងផ្ទាល់
+        សម្រាប់ពិធីមង្គលការ ពិធីជប់លៀង ព្រឹត្តិការណ៍
+        និងកម្មវិធីផ្សេងៗ។
+      </p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="title">
+      <h2>រូបភាពក្រុម</h2>
+      <p>រូបភាពពិតរបស់ក្រុម បក្សីចាំក្រុង</p>
+    </div>
+
+    <div class="gallery">
+
+      <!-- ដាក់រូបក្រុមរបស់បងនៅទីនេះ -->
+      <img src="images/group1.jpg" alt="Bacsichamkrong Band">
+      <img src="images/group2.jpg" alt="Bacsichamkrong Band">
+      <img src="images/group3.jpg" alt="Bacsichamkrong Band">
+      <img src="images/group4.jpg" alt="Bacsichamkrong Band">
+      <img src="images/group5.jpg" alt="Bacsichamkrong Band">
+      <img src="images/group6.jpg" alt="Bacsichamkrong Band">
+
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="title">
+      <h2>សេវាកម្ម</h2>
+      <p>Professional Live Music</p>
+    </div>
+
+    <div class="services">
+
+      <div class="card">
+        <h3>💍 ពិធីមង្គលការ</h3>
+        <p>តន្ត្រីសម្រាប់ពិធីមង្គលការ និងកម្មវិធីជប់លៀង</p>
+      </div>
+
+      <div class="card">
+        <h3>🎤 កម្មវិធីតន្ត្រី</h3>
+        <p>ការសម្តែងតន្ត្រីផ្ទាល់ប្រកបដោយវិជ្ជាជីវៈ</p>
+      </div>
+
+      <div class="card">
+        <h3>🎉 ពិធីជប់លៀង</h3>
+        <p>បង្កើតបរិយាកាសរីករាយសម្រាប់កម្មវិធីរបស់អ្នក</p>
+      </div>
+
+      <div class="card">
+        <h3>🏢 Event</h3>
+        <p>សេវាតន្ត្រីសម្រាប់ព្រឹត្តិការណ៍ផ្សេងៗ</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="title">
+      <h2>ទំនាក់ទំនង</h2>
+      <p>Contact Bacsichamkrong Band</p>
+    </div>
+
+    <div class="contact">
+      <p>📞 012 247 710</p>
+      <p>📞 086 975 889</p>
+      <p>📞 066 294 017</p>
+
+      <a class="btn" href="tel:012247710">Call Us</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      © 2026 <strong>បក្សីចាំក្រុង | Bacsichamkrong</strong>
+    </p>
+    <p>Professional Live Band</p>
+  </footer>
+
+</body>
+  </html>
